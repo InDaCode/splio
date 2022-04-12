@@ -4,7 +4,7 @@ Pour utiliser l'application:
 2) lancer l'application springBoot: SplioApp
 3) Se rendre sur la page Swagger de l'api Splio pour tester l'application: http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config
 
-Exercice 1 -> endpoint splio-app/real-time (param distance en km. exemple: 0.5 km pour 500m)
+Exercice 1 -> endpoint splio-app/real-time (param "distance" en km. exemple: 0.5 km pour 500m)
 
 Exercice 2 -> endpoint splio-app/velib-data-set (param "hour" compris entre 5 et 15)
 
