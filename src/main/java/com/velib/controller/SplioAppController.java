@@ -44,7 +44,7 @@ public class SplioAppController {
      */
     @GetMapping("/real-time/velib-status/{distance}")
     public ResponseEntity<SplioVelibResponse> getVelibStatus(@PathVariable Double distance) {
-        log.info("Receiving request to get velib status per stations within " + distance + " km radius");
+        log.info("Receiving request to get velib status per stations within {} km radius", distance);
 
         StationInformation stationInformation = velibApiClient.getStationsInformation();
 

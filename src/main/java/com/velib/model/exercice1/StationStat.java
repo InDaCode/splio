@@ -1,5 +1,6 @@
 package com.velib.model.exercice1;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,7 +14,8 @@ public class StationStat {
 
     public StationStat(){}
 
-    private Integer is_installed;
+    @JsonProperty("is_installed")
+    private Integer isInstalled;
     private Integer is_renting;
     private Integer is_returning;
     private Integer last_reported;
